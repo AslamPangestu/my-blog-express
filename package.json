@@ -2,8 +2,12 @@
   "name": "my-blog",
   "version": "1.0.0",
   "description": "Write content for myself",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/AslamPangestu/my-blog",
   "author": "AslamPangestu",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  }
 }
