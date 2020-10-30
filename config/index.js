@@ -1,0 +1,11 @@
+const {
+  MONGO_DB_USERNAME,
+  MONGO_DB_PASSWORD,
+  MONGO_DB_HOST,
+  MONGO_DB_PORT,
+  MONGO_DB_NAME,
+} = process.env;
+
+module.exports = {
+  MONGODB_URI: `mongodb://${MONGO_DB_USERNAME}:${MONGO_DB_PASSWORD}@${MONGO_DB_HOST}:${MONGO_DB_PORT}/${MONGO_DB_NAME}`,
+};

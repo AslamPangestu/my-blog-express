@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "Write content for myself",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "repository": "https://github.com/AslamPangestu/my-blog",
   "author": "AslamPangestu",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.10.11"
+    "mongoose": "^5.10.11",
+    "multer": "^1.4.2"
   }
 }

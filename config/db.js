@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
+const { MONGODB_URI } = require("../config");
 
 mongoose.connect(
-  "mongodb://adminBlog:adminBlog123@ds363008.mlab.com:63008/my_blog_aslampangestu",
+  MONGODB_URI,
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
