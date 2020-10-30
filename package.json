@@ -1,0 +1,9 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "Write content for myself",
+  "main": "index.js",
+  "repository": "https://github.com/AslamPangestu/my-blog",
+  "author": "AslamPangestu",
+  "license": "MIT"
+}
