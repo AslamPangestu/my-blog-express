@@ -1,9 +1,15 @@
 const {
+  //MongoDB
   MONGO_DB_USERNAME,
   MONGO_DB_PASSWORD,
   MONGO_DB_HOST,
   MONGO_DB_PORT,
   MONGO_DB_NAME,
+  //Cloudinary
+  CLOUDINARY_NAME,
+  CLOUDINARY_KEY,
+  CLOUDINARY_SECRET,
+  CLOUDINARY_FOLDER,
 } = process.env;
 
 module.exports = {

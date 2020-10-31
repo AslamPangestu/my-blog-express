@@ -5,9 +5,10 @@ const router = express.Router();
 const { getData, update } = require("../controllers/ProfileControllers");
 
 const fields = [
-  { name: "profileImageUrl", maxCount: 1 },
+  { name: "profileImage", maxCount: 1 },
   { name: "educationImages" },
   { name: "contactImages" },
+  { name: "experienceImages" },
 ];
 
 router.get("/", getData);

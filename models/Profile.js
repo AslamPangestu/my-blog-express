@@ -6,12 +6,14 @@ const ContactSchema = new Schema(
       trim: true,
       type: String,
       unique: true,
-      required: true,
     },
     content: {
       trim: true,
       type: String,
-      required: true,
+    },
+    link: {
+      trim: true,
+      type: String,
     },
   },
   {
@@ -26,22 +28,18 @@ const EducationSchema = new Schema(
       trim: true,
       type: String,
       unique: true,
-      required: true,
     },
     periode: {
       trim: true,
       type: String,
-      required: true,
     },
     title: {
       trim: true,
       type: String,
-      required: true,
     },
     content: {
       trim: true,
       type: String,
-      required: true,
     },
   },
   {
@@ -56,32 +54,26 @@ const ExperienceSchema = new Schema(
       trim: true,
       type: String,
       unique: true,
-      required: true,
     },
     periode: {
       trim: true,
       type: String,
-      required: true,
     },
     title: {
       trim: true,
       type: String,
-      required: true,
     },
     content: {
       trim: true,
       type: String,
-      required: true,
     },
     role: {
       trim: true,
       type: String,
-      required: true,
     },
     type: {
       trim: true,
       type: String,
-      required: true,
     },
   },
   {
@@ -96,12 +88,10 @@ const ProfileSchema = new Schema(
       trim: true,
       type: String,
       unique: true,
-      required: true,
     },
     jobTitle: {
       trim: true,
       type: String,
-      required: true,
     },
     profileImageUrl: {
       trim: true,
@@ -110,7 +100,6 @@ const ProfileSchema = new Schema(
     description: {
       trim: true,
       type: String,
-      required: true,
     },
     contacts: {
       type: [ContactSchema],
