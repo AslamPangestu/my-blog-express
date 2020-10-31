@@ -4,15 +4,21 @@
   "description": "Write content for myself",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "server": "node server.js",
+    "dev-server": "nodemon server.js"
   },
   "repository": "https://github.com/AslamPangestu/my-blog",
   "author": "AslamPangestu",
   "license": "MIT",
   "dependencies": {
+    "cloudinary": "^1.23.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.10.11",
-    "multer": "^1.4.2"
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
